@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import { Footer } from '../components/footer';
 import { ThemeToggle } from '../components/theme-toggle';
+import { Header } from '../components/header';
 
 export const metadata = {
     title: {
