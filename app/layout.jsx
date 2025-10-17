@@ -5,7 +5,7 @@ import { ThemeToggle } from '../components/theme-toggle';
 export const metadata = {
     title: {
         template: '%s | Netlify',
-        default: 'Netlify Starter'
+        default: 'Nadia Heredia'
     }
 };
 
