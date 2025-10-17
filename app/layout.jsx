@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
                 <ThemeToggle />
                 <div className="flex flex-col min-h-screen px-6 bg-noise sm:px-12">
                     <div className="flex flex-col w-full max-w-5xl mx-auto grow">
+                        <Header />
                         <main className="grow">{children}</main>
                         <Footer />
                     </div>
