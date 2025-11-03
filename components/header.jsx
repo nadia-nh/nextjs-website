@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Home, FolderOpen } from 'lucide-react';
 
 const navItems = [
-    { linkText: 'About', href: '/' },
-    { linkText: 'Projects', href: '/' },
-    { linkText: 'Contact', href: '/' },
+    { linkText: 'About', href: '/', icon: Home },
+    { linkText: 'Projects', href: '/', icon: FolderOpen },
 ];
 
 export function Header() {
@@ -14,8 +14,12 @@ export function Header() {
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
                     {navItems.map((item, index) => (
                         <li key={index}>
-                            <Link href={item.href} className="inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
-                                {item.linkText}
+                            <Link href={item.href} className="inline-flex items-center gap-1.5 px-1.5 py-1 sm:px-3 sm:py-2">
+                                {item.icon ? (
+                                    <item.icon size={18} aria-label={item.linkText} />
+                                ) : (
+                                    item.linkText
+                                )}
                             </Link>
                         </li>
                     ))}
