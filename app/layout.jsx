@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import { ThemeToggle } from '../components/theme-toggle';
 import { Header } from '../components/header';
+import { Footer } from '../components/footer'
 
 export const metadata = {
     title: {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
                     <div className="flex flex-col w-full max-w-5xl mx-auto grow">
                         <Header />
                         <main className="grow">{children}</main>
+                        <Footer />
                     </div>
                 </div>
             </body>
