@@ -29,7 +29,7 @@ export default function Page() {
                     </a>
 
                     <a
-                        href="mailto:nadia.heredia.nh@gmail.com"
+                        href="mailto:contact@nadiaheredia.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-xl hover:opacity-70 transition-opacity"
