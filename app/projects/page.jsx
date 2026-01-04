@@ -1,4 +1,8 @@
+import Image from 'next/image';
 import { Github } from 'lucide-react';
+import screenshotRcGodotFarmRpg from './screenshot-rc-godot-farm-rpg.png';
+import screenshotRcLovePlatformer from './screenshot-rc-love-platformer.png';
+import screenshotRcShooter from './screenshot-rc-shooter.png';
 
 export const metadata = {
     title: 'Projects'
@@ -7,66 +11,43 @@ export const metadata = {
 const projects = [
     {
         id: 1,
-        title: 'Project Title One',
-        description: 'A brief description of this project. Explain what problem it solves, the technologies used, and any notable features or achievements.',
-        image: '/placeholder-project-1.jpg',
-        githubUrl: 'https://github.com/username/project-1',
-        tags: ['React', 'Node.js', 'MongoDB']
+        title: 'RC Godot Farming Game',
+        description: 'Farming game made with Godot Engine. The player can prepare the soil, plant seeds, water crops, and harvest them once they are fully grown.',
+        image: screenshotRcGodotFarmRpg,
+        githubUrl: 'https://github.com/nadia-nh/rc-godot-farm-rpg',
+        tags: ['Godot', 'gdscript', 'farming']
     },
     {
         id: 2,
-        title: 'Project Title Two',
-        description: 'A brief description of this project. Explain what problem it solves, the technologies used, and any notable features or achievements.',
-        image: '/placeholder-project-2.jpg',
-        githubUrl: 'https://github.com/username/project-2',
-        tags: ['Python', 'Django', 'PostgreSQL']
+        title: 'RC Pico-8 Shoot Em Up Game',
+        description: 'Small shoot em up game made with Pico-8. The player controls a ship that can move and shoot lasers at falling enemies.',
+        image: screenshotRcShooter,
+        githubUrl: 'https://github.com/nadia-nh/rc-pico8-shoot-em-up',
+        tags: ['Pico-8', 'lua', 'shmup']
     },
     {
         id: 3,
-        title: 'Project Title Three',
-        description: 'A brief description of this project. Explain what problem it solves, the technologies used, and any notable features or achievements.',
-        image: '/placeholder-project-3.jpg',
-        githubUrl: 'https://github.com/username/project-3',
-        tags: ['TypeScript', 'Next.js', 'Tailwind']
+        title: 'RC Love2D Platformer Game',
+        description: 'Small platformer game made with Löve-2D. The player can jump over platforms in order to collect coins.',
+        image: screenshotRcLovePlatformer,
+        githubUrl: 'https://github.com/nadia-nh/rc-love2d-platformer',
+        tags: ['Löve-2D', 'lua', 'platformer']
     },
-    {
-        id: 4,
-        title: 'Project Title Four',
-        description: 'A brief description of this project. Explain what problem it solves, the technologies used, and any notable features or achievements.',
-        image: '/placeholder-project-4.jpg',
-        githubUrl: 'https://github.com/username/project-4',
-        tags: ['JavaScript', 'Express', 'Redis']
-    },
-    {
-        id: 5,
-        title: 'Project Title Five',
-        description: 'A brief description of this project. Explain what problem it solves, the technologies used, and any notable features or achievements.',
-        image: '/placeholder-project-5.jpg',
-        githubUrl: 'https://github.com/username/project-5',
-        tags: ['Go', 'Docker', 'Kubernetes']
-    }
 ];
 
 function ProjectCard({ project }) {
     return (
         <article className="group relative overflow-hidden rounded-lg bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             {/* Project Image */}
-            <div className="relative h-48 w-full overflow-hidden bg-neutral-200">
-                {/* Placeholder image area - replace src with actual project screenshots */}
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/20 to-secondary/30">
-                    <span className="text-neutral-500 text-sm font-medium">
-                        {/* Replace with actual Image component when images are available */}
-                        Project Screenshot
-                    </span>
-                </div>
-                {/* Uncomment and use this when you have actual images:
+            <div className="relative h-48 w-full overflow-hidden bg-black">
                 <Image
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="object-contain transition-transform duration-300 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    placeholder="blur"
                 />
-                */}
             </div>
 
             {/* Project Content */}
