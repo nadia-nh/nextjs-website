@@ -3,7 +3,7 @@ import { Home, FolderOpen } from 'lucide-react';
 
 const navItems = [
     { linkText: 'About', href: '/', icon: Home },
-    { linkText: 'Projects', href: '/', icon: FolderOpen },
+    { linkText: 'Projects', href: '/projects', icon: FolderOpen },
 ];
 
 export function Header() {
