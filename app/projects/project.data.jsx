@@ -6,6 +6,13 @@ import screenshotRcSurvivors from './screenshot-rc-survivors.png';
 import screenshotRc8Ball from './screenshot-rc-8-ball.png';
 import screenshotRcCatIgnore from './screenshot-rc-cat-ignore.png';
 
+import screenshotRcFlowerGarden from './screenshot-rc-flower-garden.png';
+import screenshotRcPathMaker from './screenshot-rc-path-maker.png';
+import screenshotRcFlowerPomodoro from './screenshot-rc-flower-pomodoro.png';
+import screenshotRcRainbowSpiral from './screenshot-rc-rainbow-spiral.png';
+import screenshotRcRingsPlanets from './screenshot-rc-rings-planets.png';
+import screenshotRcShiftingSpheres from './screenshot-rc-shifting-spheres.png';
+
 export const games = [
     {
         id: 1,
@@ -54,5 +61,56 @@ export const games = [
         image: screenshotRcCatIgnore,
         githubUrl: 'https://github.com/sllewely/cat-ignore',
         tags: ['RCade', 'typescript', 'recurse-center', 'team']
+    },
+];
+
+export const creative_code = [
+    {
+        id: 1,
+        title: 'RC Flower Garden',
+        description: 'Left click anywhere to plant a random flower, right click to remove them. The flowers have a slight left to right sway.',
+        image: screenshotRcFlowerGarden,
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/flower-garden',
+        tags: ['p5.js', 'javascript', 'garden', 'recurse-center', 'solo']
+    },
+    {
+        id: 2,
+        title: 'RC Path Maker',
+        description: 'Click to change the current tile, they cycle through grass, soil, water, rock and grass. Clicking and dragging changes multiple tiles at once.',
+        image: screenshotRcPathMaker,
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/path-maker',
+        tags: ['p5.js', 'javascript', 'recurse-center', 'solo']
+    },
+    {
+        id: 3,
+        title: 'RC Flower Pomodoro',
+        description: 'Click the "Plant" button to start. Click the timer to increase the time, starting from 5 to 60 minutes, in 5 minute increments.',
+        image: screenshotRcFlowerPomodoro,
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/flower-pomodoro',
+        tags: ['p5.js', 'javascript', 'tracking', 'recurse-center', 'solo']
+    },
+    {
+        id: 4,
+        title: 'RC Rainbow Spiral',
+        description: 'Moving spiral cycling through colors as it spins. The colors depend on the distance of each pixel to the center. The spiral fades at the edge.',
+        image: screenshotRcRainbowSpiral,
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/rainbow-spiral',
+        tags: ['shadertoy', 'glsl', 'recurse-center', 'solo']
+    },
+    {
+        id: 5,
+        title: 'RC Rings And Planets',
+        description: 'Moving rings with tiny orbiting planets on them, with dynamic motion and a background color gradient. Based on another shader made collaboratively, this version adapts the drawing logic and adds color.',
+        image: screenshotRcRingsPlanets,
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/rings-and-planets',
+        tags: ['shadertoy', 'glsl', 'recurse-center', 'solo']
+    },
+    {
+        id: 6,
+        title: 'RC Shifting Spheres',
+        description: 'Two overlapping circles with eye-like inner pupils that shift and move over time, with color gradients. Based on functions from the pixel spirit deck.',
+        image: screenshotRcShiftingSpheres,
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/shifting-spheres',
+        tags: ['shadertoy', 'glsl', 'recurse-center', 'team']
     },
 ];

@@ -1,5 +1,5 @@
 import ProjectCard from './project-card';
-import { games } from './project.data.jsx';
+import { games, creative_code } from './project.data.jsx';
 
 export const metadata = {
     title: 'Projects'
@@ -22,6 +22,17 @@ export default function ProjectsPage() {
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {games.map((game) => (
                     <ProjectCard key={game.id} project={game} />
+                ))}
+            </div>
+
+            <br /><br />
+            
+            <h2 className="mb-4">Creative Code</h2>
+
+            {/* Creative Code Grid */}
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {creative_code.map((creative_code) => (
+                    <ProjectCard key={creative_code.id} project={creative_code} />
                 ))}
             </div>
         </div>
