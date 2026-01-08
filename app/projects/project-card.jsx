@@ -2,19 +2,35 @@ import Image from 'next/image';
 import { Github } from 'lucide-react';
 
 export default function ProjectCard({ project }) {
+    const imageContent = (
+        <div className="relative h-48 w-full overflow-hidden bg-black">
+            <Image
+                src={project.image}
+                alt={project.title}
+                fill
+                className="object-contain transition-transform duration-300 group-hover:scale-105"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                placeholder="blur"
+            />
+        </div>
+    );
+
     return (
         <article className="group relative overflow-hidden rounded-lg bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             {/* Project Image */}
-            <div className="relative h-48 w-full overflow-hidden bg-black">
-                <Image
-                    src={project.image}
-                    alt={project.title}
-                    fill
-                    className="object-contain transition-transform duration-300 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    placeholder="blur"
-                />
-            </div>
+            {project.liveUrl ? (
+                <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                    aria-label={`Open ${project.title}`}
+                >
+                    {imageContent}
+                </a>
+            ) : (
+                imageContent
+            )}
 
             {/* Project Content */}
             <div className="p-6">
