@@ -1,3 +1,5 @@
+import screenshotRcWaterTracking from './screenshot-rc-water-tracking.png';
+import screenshotRcPomodoro from './screenshot-rc-pomodoro.png';
 
 import screenshotRcGodotFarmRpg from './screenshot-rc-godot-farm-rpg.png';
 import screenshotRcLovePlatformer from './screenshot-rc-love-platformer.png';
@@ -12,6 +14,27 @@ import screenshotRcFlowerPomodoro from './screenshot-rc-flower-pomodoro.png';
 import screenshotRcRainbowSpiral from './screenshot-rc-rainbow-spiral.png';
 import screenshotRcRingsPlanets from './screenshot-rc-rings-planets.png';
 import screenshotRcShiftingSpheres from './screenshot-rc-shifting-spheres.png';
+
+export const applications = [
+    {
+        id: 1,
+        title: 'RC Android Pomodoro',
+        description: 'Pomodoro app built with Android and Jetpack Compose. Allows users to set a timer and track their focus sessions.',
+        image: screenshotRcPomodoro,
+        liveUrl: null,
+        githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
+        tags: ['Android', 'jetpack-compose', 'room', 'recurse-center', 'solo']
+    },
+    {
+        id: 2,
+        title: 'RC Water Tracking App',
+        description: 'Water tracking app built with React and Nextjs. Allows users to log their daily water intake and view their progress over time.',
+        image: screenshotRcWaterTracking,
+        liveUrl: 'https://rc-water-tracking-app.vercel.app/',
+        githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
+        tags: ['React', 'Nextjs', 'typescript', 'recurse-center', 'team']
+    },
+];
 
 export const games = [
     {

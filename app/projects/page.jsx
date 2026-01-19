@@ -1,5 +1,5 @@
 import ProjectCard from './project-card';
-import { games, creative_code } from './project.data.jsx';
+import { applications, games, creative_code } from './project.data.jsx';
 
 export const metadata = {
     title: 'Projects'
@@ -15,6 +15,17 @@ export default function ProjectsPage() {
                     
                 </p>
             </div>
+
+            <h2 className="mb-4">Apps</h2>
+
+            {/* Apps Grid */}
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {applications.map((app) => (
+                    <ProjectCard key={app.id} project={app} />
+                ))}
+            </div>
+
+            <br /><br />
 
             <h2 className="mb-4">Games</h2>
 
