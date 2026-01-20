@@ -18,8 +18,8 @@ import screenshotRcShiftingSpheres from './screenshot-rc-shifting-spheres.png';
 export const applications = [
     {
         id: 1,
-        title: 'RC Android Pomodoro',
-        description: 'Pomodoro app built with Android and Jetpack Compose. Allows users to set a timer and track their focus sessions.',
+        title: 'Quiet Garden',
+        description: 'Pomodoro app built with Android and Jetpack Compose. The user can set a timer and track their focus sessions.',
         image: screenshotRcPomodoro,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
@@ -27,8 +27,8 @@ export const applications = [
     },
     {
         id: 2,
-        title: 'RC Water Tracking App',
-        description: 'Water tracking app built with React and Nextjs. Allows users to log their daily water intake and view their progress over time.',
+        title: 'Daily Drip',
+        description: 'Water tracking app built with React and Nextjs. The user can log their daily water intake and view their progress over time.',
         image: screenshotRcWaterTracking,
         liveUrl: 'https://rc-water-tracking-app.vercel.app/',
         githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
@@ -39,7 +39,7 @@ export const applications = [
 export const games = [
     {
         id: 1,
-        title: 'RC Godot Farming Game',
+        title: 'Plant And Prosper',
         description: 'Farming game made with Godot Engine. The player can prepare the soil, plant seeds, water crops, and harvest them once they are fully grown.',
         image: screenshotRcGodotFarmRpg,
         liveUrl: null,
@@ -48,7 +48,7 @@ export const games = [
     },
     {
         id: 2,
-        title: 'RC Pico-8 Shoot Em Up Game',
+        title: 'Space Laser',
         description: 'Small shoot em up game made with Pico-8. The player controls a ship that can move and shoot lasers at falling enemies.',
         image: screenshotRcShooter,
         liveUrl: 'https://www.lexaloffle.com/bbs/cart_info.php?cid=rasifebuhi-8',
@@ -57,25 +57,25 @@ export const games = [
     },
     {
         id: 3,
-        title: 'RC Love2D Platformer Game',
+        title: 'One More Jump',
         description: 'Small platformer game made with Löve-2D. The player can jump over platforms in order to collect coins.',
         image: screenshotRcLovePlatformer,
-        liveUrl: 'https://forgepixel.itch.io/rc-love2d-platformer',
+        liveUrl: 'https://forgepixel.itch.io/one-more-jump',
         githubUrl: 'https://github.com/nadia-nh/rc-love2d-platformer',
         tags: ['Löve-2D', 'lua', 'platformer', 'recurse-center', 'solo']
     },
     {
         id: 4,
-        title: 'RC Godot Underwater Survivors Game',
+        title: 'Fishy Water',
         description: 'Small underwater survivors-like game made with Godot. The player can move around and avoid enemies.',
         image: screenshotRcSurvivors,
-        liveUrl: 'https://forgepixel.itch.io/underwater-survivors',
+        liveUrl: 'https://forgepixel.itch.io/fishy-water',
         githubUrl: 'https://github.com/nadia-nh/rc-survivors-game',
         tags: ['Godot', 'gdscript', 'survivors-like', 'recurse-center', 'team']
     },
     {
         id: 5,
-        title: 'RC RCade 8-ball Game',
+        title: 'Ask The Orb',
         description: 'Small RCade game that simulates a magic 8-ball. The player can ask a question and receive a random answer.',
         image: screenshotRc8Ball,
         liveUrl: 'https://editor.p5js.org/nadia-nh/full/VKEy3PDBB',
@@ -84,7 +84,7 @@ export const games = [
     },
     {
         id: 6,
-        title: 'RC RCade Cat Ignore Game',
+        title: 'Your Cat',
         description: 'Small RCade game featuring a cat. The player calls out to it to try to get its attention.',
         image: screenshotRcCatIgnore,
         liveUrl: 'https://editor.p5js.org/nadia-nh/full/lWcGcg2eZ',
@@ -96,7 +96,7 @@ export const games = [
 export const creative_code = [
     {
         id: 1,
-        title: 'RC Flower Garden',
+        title: 'Flower Garden',
         description: 'Left click anywhere to plant a random flower, right click to remove them. The flowers have a slight left to right sway.',
         image: screenshotRcFlowerGarden,
         liveUrl: 'https://editor.p5js.org/nadia-nh/full/H0Lgt_z6k',
@@ -105,7 +105,7 @@ export const creative_code = [
     },
     {
         id: 2,
-        title: 'RC Path Maker',
+        title: 'Path Maker',
         description: 'Click to change the current tile, they cycle through grass, soil, water, rock and grass. Clicking and dragging changes multiple tiles at once.',
         image: screenshotRcPathMaker,
         liveUrl: 'https://editor.p5js.org/nadia-nh/full/2wc-SBZAT',
@@ -114,7 +114,7 @@ export const creative_code = [
     },
     {
         id: 3,
-        title: 'RC Flower Pomodoro',
+        title: 'Flower Pomodoro',
         description: 'Click the "Plant" button to start. Click the timer to increase the time, starting from 5 to 60 minutes, in 5 minute increments.',
         image: screenshotRcFlowerPomodoro,
         liveUrl: 'https://editor.p5js.org/nadia-nh/full/NZ9HCfpnp',
@@ -123,7 +123,7 @@ export const creative_code = [
     },
     {
         id: 4,
-        title: 'RC Rainbow Spiral',
+        title: 'Rainbow Spiral',
         description: 'Moving spiral cycling through colors as it spins. The colors depend on the distance of each pixel to the center. The spiral fades at the edge.',
         image: screenshotRcRainbowSpiral,
         liveUrl: 'https://www.shadertoy.com/view/33SBDD',
@@ -132,7 +132,7 @@ export const creative_code = [
     },
     {
         id: 5,
-        title: 'RC Rings And Planets',
+        title: 'Rings And Planets',
         description: 'Moving rings with tiny orbiting planets on them, with dynamic motion and a background color gradient. Based on another shader made collaboratively, this version adapts the drawing logic and adds color.',
         image: screenshotRcRingsPlanets,
         liveUrl: 'https://www.shadertoy.com/view/W3jBWW',
@@ -141,7 +141,7 @@ export const creative_code = [
     },
     {
         id: 6,
-        title: 'RC Shifting Spheres',
+        title: 'Shifting Spheres',
         description: 'Two overlapping circles with eye-like inner pupils that shift and move over time, with color gradients. Based on functions from the pixel spirit deck.',
         image: screenshotRcShiftingSpheres,
         liveUrl: 'https://www.shadertoy.com/view/tc3cWN',
