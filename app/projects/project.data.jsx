@@ -42,7 +42,7 @@ export const games = [
         title: 'Plant And Prosper',
         description: 'Farming game made with Godot Engine. The player can prepare the soil, plant seeds, water crops, and harvest them once they are fully grown.',
         image: screenshotRcGodotFarmRpg,
-        liveUrl: null,
+        liveUrl: 'https://forgepixel.itch.io/plant-and-prosper',
         githubUrl: 'https://github.com/nadia-nh/rc-godot-farm-rpg',
         tags: ['Godot', 'gdscript', 'farming', 'recurse-center', 'solo']
     },
