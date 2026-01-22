@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Github } from 'lucide-react';
+import { Github, Link2 } from 'lucide-react';
 
 export default function ProjectCard({ project }) {
     const imageContent = (
@@ -65,8 +65,23 @@ export default function ProjectCard({ project }) {
                         className="inline-flex items-center gap-2 text-sm font-medium text-neutral-700 no-underline hover:text-secondary transition-colors"
                     >
                         <Github size={18} />
-                        View Code
+                        Code
                     </a>
+
+                    {project.liveUrl ? (
+                        <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-sm font-medium text-neutral-700 no-underline hover:text-secondary transition-colors"
+                            aria-label={`Open ${project.title}`}
+                        >
+                            <Link2 size={18} />
+                            Link
+                        </a>
+                    ) : (
+                        null
+                    )}
                 </div>
             </div>
         </article>
