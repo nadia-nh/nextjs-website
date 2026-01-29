@@ -1,19 +1,19 @@
-import screenshotRcWaterTracking from './screenshot-rc-water-tracking.png';
-import screenshotRcPomodoro from './screenshot-rc-pomodoro.png';
+import screenshotRcWaterTracking from '@images/screenshot-rc-water-tracking.png';
+import screenshotRcPomodoro from '@images/screenshot-rc-pomodoro.png';
 
-import screenshotRcGodotFarmRpg from './screenshot-rc-godot-farm-rpg.png';
-import screenshotRcLovePlatformer from './screenshot-rc-love-platformer.png';
-import screenshotRcShooter from './screenshot-rc-shooter.png';
-import screenshotRcSurvivors from './screenshot-rc-survivors.png';
-import screenshotRc8Ball from './screenshot-rc-8-ball.png';
-import screenshotRcCatIgnore from './screenshot-rc-cat-ignore.png';
+import screenshotRcGodotFarmRpg from '@images/screenshot-rc-godot-farm-rpg.png';
+import screenshotRcLovePlatformer from '@images/screenshot-rc-love-platformer.png';
+import screenshotRcShooter from '@images/screenshot-rc-shooter.png';
+import screenshotRcSurvivors from '@images/screenshot-rc-survivors.png';
+import screenshotRc8Ball from '@images/screenshot-rc-8-ball.png';
+import screenshotRcCatIgnore from '@images/screenshot-rc-cat-ignore.png';
 
-import screenshotRcFlowerGarden from './screenshot-rc-flower-garden.png';
-import screenshotRcPathMaker from './screenshot-rc-path-maker.png';
-import screenshotRcFlowerPomodoro from './screenshot-rc-flower-pomodoro.png';
-import screenshotRcRainbowSpiral from './screenshot-rc-rainbow-spiral.png';
-import screenshotRcRingsPlanets from './screenshot-rc-rings-planets.png';
-import screenshotRcShiftingSpheres from './screenshot-rc-shifting-spheres.png';
+import screenshotRcFlowerGarden from '@images/screenshot-rc-flower-garden.png';
+import screenshotRcPathMaker from '@images/screenshot-rc-path-maker.png';
+import screenshotRcFlowerPomodoro from '@images/screenshot-rc-flower-pomodoro.png';
+import screenshotRcRainbowSpiral from '@images/screenshot-rc-rainbow-spiral.png';
+import screenshotRcRingsPlanets from '@images/screenshot-rc-rings-planets.png';
+import screenshotRcShiftingSpheres from '@images/screenshot-rc-shifting-spheres.png';
 
 export const applications = [
     {
