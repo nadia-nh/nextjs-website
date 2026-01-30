@@ -2,11 +2,14 @@ import screenshotRcWaterTracking from '@images/screenshot-rc-water-tracking.png'
 import screenshotRcPomodoro from '@images/screenshot-rc-pomodoro.png';
 
 import screenshotRcGodotFarmRpg from '@images/screenshot-rc-godot-farm-rpg.png';
-import screenshotRcLovePlatformer from '@images/screenshot-rc-love-platformer.png';
-import screenshotRcShooter from '@images/screenshot-rc-shooter.png';
 import screenshotRcSurvivors from '@images/screenshot-rc-survivors.png';
+import screenshotRcBigSeasons from '@images/screenshot-rc-big-seasons.png';
+
 import screenshotRc8Ball from '@images/screenshot-rc-8-ball.png';
 import screenshotRcCatIgnore from '@images/screenshot-rc-cat-ignore.png';
+
+import screenshotRcShooter from '@images/screenshot-rc-shooter.png';
+import screenshotRcLovePlatformer from '@images/screenshot-rc-love-platformer.png';
 
 import screenshotRcFlowerGarden from '@images/screenshot-rc-flower-garden.png';
 import screenshotRcPathMaker from '@images/screenshot-rc-path-maker.png';
@@ -123,6 +126,16 @@ export const games_godot = [
         liveUrl: 'https://forgepixel.itch.io/fishy-water',
         githubUrl: 'https://github.com/nadia-nh/rc-survivors-game',
         tags: ['GDScript', 'Survivors', 'Team']
+    },
+    {
+        id: 3,
+        title: 'Big Seasons',
+        description: `Cozy atmospheric game. 
+            Walk through the changing seasons in a peaceful environment.`,
+        image: screenshotRcBigSeasons,
+        liveUrl: 'https://forgepixel.itch.io/2-big-2-seasons',
+        githubUrl: 'https://github.com/nadia-nh/rc-godot-2big2seasons',
+        tags: ['GDScript', 'Cozy', 'Team']
     },
 ];
 
