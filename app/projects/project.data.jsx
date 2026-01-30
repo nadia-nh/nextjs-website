@@ -15,6 +15,70 @@ import screenshotRcRainbowSpiral from '@images/screenshot-rc-rainbow-spiral.png'
 import screenshotRcRingsPlanets from '@images/screenshot-rc-rings-planets.png';
 import screenshotRcShiftingSpheres from '@images/screenshot-rc-shifting-spheres.png';
 
+export const featured = [
+    {
+        id: 1,
+        title: 'Quiet Garden',
+        description: `Pomodoro app built with Android.
+            Set a customizable timer to focus and track you pomodoro sessions.`,
+        image: screenshotRcPomodoro,
+        liveUrl: null,
+        githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
+        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Recurse-center', 'Solo']
+    },
+    {
+        id: 2,
+        title: 'Daily Drip',
+        description: `Water tracking app built with React.
+            Log your daily water intake and view your progress over time.`,
+        image: screenshotRcWaterTracking,
+        liveUrl: 'https://rc-water-tracking-app.vercel.app/',
+        githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
+        tags: ['React', 'Nextjs', 'Typescript', 'Productivity', 'Recurse-center', 'Team']
+    },
+    {
+        id: 3,
+        title: 'Plant And Prosper',
+        description: `Cozy farming game built with Godot.
+            Prepare the soil, plant seeds, water crops, and sell them once they are fully grown.`,
+        image: screenshotRcGodotFarmRpg,
+        liveUrl: 'https://forgepixel.itch.io/plant-and-prosper',
+        githubUrl: 'https://github.com/nadia-nh/rc-godot-farm-rpg',
+        tags: ['Godot', 'GDScript', 'Cozy', 'Solo']
+    },
+    {
+        id: 4,
+        title: 'Space Laser',
+        description: `Shoot-em-up game in space built with Pico-8.
+            Steer a ship and shoot lasers at falling enemies.`,
+        image: screenshotRcShooter,
+        liveUrl: 'https://www.lexaloffle.com/bbs/cart_info.php?cid=rasifebuhi-8',
+        githubUrl: 'https://github.com/nadia-nh/rc-pico8-shoot-em-up',
+        tags: ['Pico-8', 'Lua', 'SHMUP', 'Recurse-center', 'Solo']
+    },
+    {
+        id: 5,
+        title: 'Flower Garden',
+        description: `Cozy garden.
+            Left-click to plant flowers and watch them sway in the breeze.
+            Right-click to remove them.`,
+        image: screenshotRcFlowerGarden,
+        liveUrl: 'https://editor.p5js.org/nadia-nh/full/H0Lgt_z6k',
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/flower-garden',
+        tags: ['p5.js', 'Javascript', 'Cozy', 'Solo']
+    },
+    {
+        id: 6,
+        title: 'Rings And Planets',
+        description: `Constellation scene.
+            Rings and orbiting planets move dynamically, with colors shifting over time.`,
+        image: screenshotRcRingsPlanets,
+        liveUrl: 'https://www.shadertoy.com/view/W3jBWW',
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/rings-and-planets',
+        tags: ['Shader','GLSL', 'Geometric', 'Solo']
+    },
+];
+
 export const applications = [
     {
         id: 1,
