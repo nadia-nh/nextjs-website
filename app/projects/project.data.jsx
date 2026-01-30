@@ -11,6 +11,7 @@ import screenshotRcCatIgnore from '@images/screenshot-rc-cat-ignore.png';
 import screenshotRcFlowerGarden from '@images/screenshot-rc-flower-garden.png';
 import screenshotRcPathMaker from '@images/screenshot-rc-path-maker.png';
 import screenshotRcFlowerPomodoro from '@images/screenshot-rc-flower-pomodoro.png';
+import screenshotRecursiveTree from '@images/screenshot-rc-recursive-tree.png';
 import screenshotRcRainbowSpiral from '@images/screenshot-rc-rainbow-spiral.png';
 import screenshotRcRingsPlanets from '@images/screenshot-rc-rings-planets.png';
 import screenshotRcShiftingSpheres from '@images/screenshot-rc-shifting-spheres.png';
@@ -204,6 +205,17 @@ export const sketches = [
         liveUrl: 'https://editor.p5js.org/nadia-nh/full/NZ9HCfpnp',
         githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/flower-pomodoro',
         tags: ['Javascript', 'Productivity', 'Solo']
+    },
+    {
+        id: 4,
+        title: 'Recursive Geometry',
+        description: `Recursive tree made in p5.js using simple geometry.
+            Move the mouse to change the height and width of the tree.
+            The colors change from green to brown as the branches get smaller.`,
+        image: screenshotRecursiveTree,
+        liveUrl: 'https://editor.p5js.org/nadia-nh/full/4X5ojv4IQ',
+        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/recursive-geometry',
+        tags: ['Javascript', 'Geometric', 'Solo']
     },
 ];
 
