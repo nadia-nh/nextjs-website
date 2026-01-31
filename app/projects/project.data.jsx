@@ -1,4 +1,5 @@
 import screenshotRcWaterTracking from '@images/screenshot-rc-water-tracking.png';
+import screenshotRcTarot from '@images/screenshot-rc-tarot.png';
 import screenshotRcPomodoro from '@images/screenshot-rc-pomodoro.png';
 
 import screenshotRcGodotFarmRpg from '@images/screenshot-rc-godot-farm-rpg.png';
@@ -28,17 +29,17 @@ export const featured = [
         image: screenshotRcPomodoro,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
-        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Recurse-center', 'Solo']
+        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Solo']
     },
     {
         id: 2,
-        title: 'Daily Drip',
-        description: `Water tracking app built with React.
-            Log your daily water intake and view your progress over time.`,
-        image: screenshotRcWaterTracking,
-        liveUrl: 'https://rc-water-tracking-app.vercel.app/',
-        githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
-        tags: ['React', 'Nextjs', 'Typescript', 'Productivity', 'Recurse-center', 'Team']
+        title: 'Arcana Flux',
+        description: `Tarot reading app built with Android.
+            Get tarot readings and explore the meanings of each card.`,
+        image: screenshotRcTarot,
+        liveUrl: null,
+        githubUrl: 'https://github.com/nadia-nh/rc-android-tarotp',
+        tags: ['Android', 'Jetpack-compose', 'Room', 'Solo']
     },
     {
         id: 3,
@@ -58,7 +59,7 @@ export const featured = [
         image: screenshotRcShooter,
         liveUrl: 'https://www.lexaloffle.com/bbs/cart_info.php?cid=rasifebuhi-8',
         githubUrl: 'https://github.com/nadia-nh/rc-pico8-shoot-em-up',
-        tags: ['Pico-8', 'Lua', 'SHMUP', 'Recurse-center', 'Solo']
+        tags: ['Pico-8', 'Lua', 'SHMUP', 'Solo']
     },
     {
         id: 5,
@@ -92,17 +93,27 @@ export const applications = [
         image: screenshotRcPomodoro,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
-        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Recurse-center', 'Solo']
+        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Solo']
     },
     {
         id: 2,
+        title: 'Arcana Flux',
+        description: `Tarot reading app built with Android.
+            Get tarot readings and explore the meanings of each card.`,
+        image: screenshotRcTarot,
+        liveUrl: null,
+        githubUrl: 'https://github.com/nadia-nh/rc-android-tarotp',
+        tags: ['Android', 'Jetpack-compose', 'Room', 'Solo']
+    },
+    {
+        id: 3,
         title: 'Daily Drip',
         description: `Water tracking app built with React.
             Log your daily water intake and view your progress over time.`,
         image: screenshotRcWaterTracking,
         liveUrl: 'https://rc-water-tracking-app.vercel.app/',
         githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
-        tags: ['React', 'Nextjs', 'Typescript', 'Productivity', 'Recurse-center', 'Team']
+        tags: ['React', 'Nextjs', 'Typescript', 'Productivity', 'Team']
     },
 ];
 
@@ -171,7 +182,7 @@ export const games_other = [
         image: screenshotRcShooter,
         liveUrl: 'https://www.lexaloffle.com/bbs/cart_info.php?cid=rasifebuhi-8',
         githubUrl: 'https://github.com/nadia-nh/rc-pico8-shoot-em-up',
-        tags: ['Pico-8', 'Lua', 'SHMUP', 'Recurse-center', 'Solo']
+        tags: ['Pico-8', 'Lua', 'SHMUP', 'Solo']
     },
     {
         id: 2,
@@ -181,7 +192,7 @@ export const games_other = [
         image: screenshotRcLovePlatformer,
         liveUrl: 'https://forgepixel.itch.io/one-more-jump',
         githubUrl: 'https://github.com/nadia-nh/rc-love2d-platformer',
-        tags: ['Löve-2D', 'Lua', 'Platformer', 'Recurse-center', 'Solo']
+        tags: ['Löve-2D', 'Lua', 'Platformer', 'Solo']
     },
 ];
 
