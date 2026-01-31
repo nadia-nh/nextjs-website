@@ -13,14 +13,11 @@ export default function AppProjectsPage() {
             {/* Page Header */}
             <div className="mb-12">
                 <h1 className="mb-4">Apps</h1>
-                <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl"
-                    style={{ color: 'var(--text-color)', opacity: 0.8 }}>
-                    
-                </p>
+                <p className="page-description" />
             </div>
 
             {/* Apps Grid */}
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="project-grid">
                 {applications.map((app) => (
                     <ProjectCard key={app.id} project={app} />
                 ))}

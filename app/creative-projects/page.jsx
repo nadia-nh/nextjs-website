@@ -14,23 +14,20 @@ export default function ProjectsPage() {
             {/* Page Header */}
             <div className="mb-12">
                 <h1 className="mb-4">Creative Code</h1>
-                <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl"
-                    style={{ color: 'var(--text-color)', opacity: 0.8 }}>
-                </p>
+                <p className="page-description" />
             </div>
 
             <h2 className="mb-4">P5.js Sketches</h2>
 
             {/* Creative Code Grid */}
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="project-grid">
                 {sketches.map((sketch) => (
                     <ProjectCard key={sketch.id} project={sketch} />
                 ))}
             </div>
 
-            <br /><br />
-            <h2 className="mb-4">Time-based Shaders</h2>
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <h2 className="mt-12 mb-4">Time-based Shaders</h2>
+            <div className="project-grid">
                 {shaders.map((shader) => (
                     <ProjectCard key={shader.id} project={shader} />
                 ))}

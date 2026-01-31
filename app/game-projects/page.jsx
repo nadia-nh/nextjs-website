@@ -15,10 +15,7 @@ export default function GameProjectsPage() {
             {/* Page Header */}
             <div className="mb-12">
                 <h1 className="mb-4">Games</h1>
-                <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl"
-                    style={{ color: 'var(--text-color)', opacity: 0.8 }}>
-                    
-                </p>
+                <p className="page-description" />
             </div>
 
             <h2 className="mb-4">
@@ -30,14 +27,13 @@ export default function GameProjectsPage() {
                 </a>
             </h2>
             {/* Godot Games Grid */}
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="project-grid">
                 {games_godot.map((game) => (
                     <ProjectCard key={game.id} project={game} />
                 ))}
             </div>
 
-            <br /><br />
-            <h2 className="mb-4" style={{ display: 'flex', gap: '10px', alignItems: 'left' }}>
+            <h2 className="mt-12 mb-4 flex items-center gap-2">
                 <a
                     href='https://www.lexaloffle.com/pico-8.php'
                     target="_blank"
@@ -53,14 +49,13 @@ export default function GameProjectsPage() {
                 </a>
             </h2>
             {/* Other Games Grid */}
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="project-grid">
                 {games_other.map((game) => (
                     <ProjectCard key={game.id} project={game} />
                 ))}
             </div>
 
-            <br /><br />
-            <h2 className="mb-4">
+            <h2 className="mt-12 mb-4">
                 <a
                     href='https://github.com/fcjr/RCade'
                     target="_blank"
@@ -69,7 +64,7 @@ export default function GameProjectsPage() {
                 </a>
             </h2>
             {/* RCade Games Grid */}
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="project-grid">
                 {games_rcade.map((game) => (
                     <ProjectCard key={game.id} project={game} />
                 ))}
