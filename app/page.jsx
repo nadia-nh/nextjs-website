@@ -3,8 +3,15 @@ import { Linkedin, Mail } from 'lucide-react';
 export default function Page() {
     return (
         <div className="pt-12">
-            <div className="text-center">
+            <div className="text-left">
                 <h1 className="mb-8 text-4xl font-bold">Nadia Heredia</h1>
+
+                <p className="page-description mt-4">
+                    Nadia Heredia (she / her) is a software engineer based in New York City.
+                    With a background in Android development and graphics, she designs and builds mobile applications, games, and generative art projects.
+                </p>
+
+                <br/> <br />
                 <div className="flex justify-center gap-4">
                     <a 
                         href="https://github.com/nadia-nh" 

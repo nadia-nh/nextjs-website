@@ -23,7 +23,7 @@ import screenshotRcShiftingSpheres from '@images/screenshot-rc-shifting-spheres.
 export const featured = [
     {
         id: 1,
-        title: 'Quiet Garden',
+        title: 'App - Quiet Garden',
         description: `Pomodoro app built with Android.
             Set a customizable timer to focus and track you pomodoro sessions.`,
         image: screenshotRcPomodoro,
@@ -33,7 +33,7 @@ export const featured = [
     },
     {
         id: 2,
-        title: 'Arcana Flux',
+        title: 'App - Arcana Flux',
         description: `Tarot reading app built with Android.
             Get tarot readings and explore the meanings of each card.`,
         image: screenshotRcTarot,
@@ -43,7 +43,7 @@ export const featured = [
     },
     {
         id: 3,
-        title: 'Plant And Prosper',
+        title: 'Game - Plant And Prosper',
         description: `Cozy farming game built with Godot.
             Prepare the soil, plant seeds, water crops, and sell them once they are fully grown.`,
         image: screenshotRcGodotFarmRpg,
@@ -53,7 +53,7 @@ export const featured = [
     },
     {
         id: 4,
-        title: 'Space Laser',
+        title: 'Game - Space Laser',
         description: `Shoot-em-up game in space built with Pico-8.
             Steer a ship and shoot lasers at falling enemies.`,
         image: screenshotRcShooter,
@@ -63,7 +63,7 @@ export const featured = [
     },
     {
         id: 5,
-        title: 'Flower Garden',
+        title: 'Generative Art - Flower Garden',
         description: `Cozy garden.
             Left-click to plant flowers and watch them sway in the breeze.
             Right-click to remove them.`,
@@ -74,7 +74,7 @@ export const featured = [
     },
     {
         id: 6,
-        title: 'Rings And Planets',
+        title: 'Generative Art - Rings And Planets',
         description: `Constellation scene.
             Rings and orbiting planets move dynamically, with colors shifting over time.`,
         image: screenshotRcRingsPlanets,

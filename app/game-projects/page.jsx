@@ -1,4 +1,5 @@
 import ProjectCard from '../projects/project-card';
+import Link from 'next/link';
 import {
     games_godot,
     games_rcade,
@@ -15,7 +16,16 @@ export default function GameProjectsPage() {
             {/* Page Header */}
             <div className="mb-12">
                 <h1 className="mb-4">Games</h1>
-                <p className="page-description" />
+                <p className="page-description mt-4">
+                    Games built with different game engines and frameworks, exploring game design, mechanics, and systems.
+                </p>
+
+                <div className="page-description mt-4 flex flex-wrap items-center gap-3">
+                    <span>Browse:</span>
+                    <Link href="/projects" className="cta-link">featured projects</Link>
+                    <Link href="/app-projects" className="cta-link">all apps</Link>
+                    <Link href="/creative-projects" className="cta-link">all generative art</Link>
+                </div>
             </div>
 
             <h2 className="mb-4">

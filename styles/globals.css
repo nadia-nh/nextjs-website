@@ -175,7 +175,7 @@
     }
 
     .page-description {
-        @apply text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl;
+        @apply text-lg text-neutral-600 dark:text-neutral-400;
         opacity: 0.8;
         color: var(--text-color);
     }
@@ -185,6 +185,9 @@
     }
 
     .cta-link {
-        @apply inline-flex items-center justify-center gap-2 rounded-md border border-neutral-300 px-4 py-2 text-sm font-medium transition hover:-translate-y-0.5 hover:shadow-sm dark:border-neutral-700;
+        @apply inline-flex items-center justify-center gap-0 rounded-md
+        border px-0 py-2 text-base font-medium
+        transition hover:-translate-y-0.5 hover:shadow-sm;
+        border-color: var(--bg-color);
     }
 }

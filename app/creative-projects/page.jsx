@@ -1,4 +1,5 @@
 import ProjectCard from '../projects/project-card';
+import Link from 'next/link';
 import {
     sketches,
     shaders
@@ -13,8 +14,17 @@ export default function ProjectsPage() {
         <div className="pb-12">
             {/* Page Header */}
             <div className="mb-12">
-                <h1 className="mb-4">Creative Code</h1>
-                <p className="page-description" />
+                <h1 className="mb-4">Generative Art</h1>
+                <p className="page-description mt-4">
+                    Generative and visual experiments exploring motion, color, algorithms, and interaction.
+                </p>
+
+                <div className="page-description mt-4 flex flex-wrap items-center gap-3">
+                    <span>Browse:</span>
+                    <Link href="/projects" className="cta-link">featured projects</Link>
+                    <Link href="/app-projects" className="cta-link">all apps</Link>
+                    <Link href="/game-projects" className="cta-link">all games</Link>
+                </div>
             </div>
 
             <h2 className="mb-4">P5.js Sketches</h2>
