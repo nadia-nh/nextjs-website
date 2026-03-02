@@ -5,8 +5,8 @@ import { Footer } from '../components/footer'
 
 export const metadata = {
     title: {
-        template: '%s | Netlify',
-        default: 'Nadia Heredia'
+        template: 'Nadia Heredia - %s',
+        default: 'Nadia Heredia - Software Engineer'
     }
 };
 
