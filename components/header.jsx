@@ -1,9 +1,17 @@
 import Link from 'next/link';
-import { Home, FolderOpen } from 'lucide-react';
+import {
+    Home,
+    FolderOpen,
+    Monitor,
+    Gamepad2,
+    Palette } from 'lucide-react';
 
 const navItems = [
     { linkText: 'About', href: '/', icon: Home },
     { linkText: 'Projects', href: '/projects', icon: FolderOpen },
+    { linkText: 'Apps', href: '/app-projects', icon: Monitor },
+    { linkText: 'Games', href: '/game-projects', icon: Gamepad2 },
+    { linkText: 'Generative Art', href: '/creative-projects', icon: Palette },
 ];
 
 export function Header() {
