@@ -38,7 +38,7 @@ export const featured = [
             Get tarot readings and explore the meanings of each card.`,
         image: screenshotRcTarot,
         liveUrl: null,
-        githubUrl: 'https://github.com/nadia-nh/rc-android-tarotp',
+        githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
         tags: ['Android', 'Jetpack-compose', 'Room', 'Solo']
     },
     {
