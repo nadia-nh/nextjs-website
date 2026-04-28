@@ -1,7 +1,7 @@
 import ProjectCard from '../projects/project-card';
 import Link from 'next/link';
 import {
-    applications,
+    apps_android, apps_web,
 } from '../projects/project.data.jsx';
 
 export const metadata = {
@@ -27,8 +27,16 @@ export default function AppProjectsPage() {
             </div>
 
             {/* Apps Grid */}
+            <h2 className="mb-4">Android Apps</h2>
             <div className="project-grid">
-                {applications.map((app) => (
+                {apps_android.map((app) => (
+                    <ProjectCard key={app.id} project={app} />
+                ))}
+            </div>
+
+            <h2 className="mt-12 mb-4">Web Apps</h2>
+            <div className="project-grid">
+                {apps_web.map((app) => (
                     <ProjectCard key={app.id} project={app} />
                 ))}
             </div>

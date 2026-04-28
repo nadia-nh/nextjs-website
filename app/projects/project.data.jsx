@@ -1,4 +1,5 @@
 import screenshotRcWaterTracking from '@images/screenshot-rc-water-tracking.png';
+import screenshotPlantPal from '@images/screenshot-plant-pal.png';
 import screenshotRcTarot from '@images/screenshot-rc-tarot.png';
 import screenshotRcPomodoro from '@images/screenshot-rc-pomodoro.png';
 
@@ -84,7 +85,7 @@ export const featured = [
     },
 ];
 
-export const applications = [
+export const apps_android = [
     {
         id: 1,
         title: 'Quiet Garden',
@@ -105,8 +106,12 @@ export const applications = [
         githubUrl: 'https://github.com/nadia-nh/rc-android-tarotp',
         tags: ['Android', 'Jetpack-compose', 'Room', 'Solo']
     },
+    
+];
+
+export const apps_web = [
     {
-        id: 3,
+        id: 1,
         title: 'Daily Drip',
         description: `Water tracking app built with React.
             Log your daily water intake and view your progress over time.`,
@@ -115,7 +120,17 @@ export const applications = [
         githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
         tags: ['React', 'Nextjs', 'Typescript', 'Productivity', 'Team']
     },
-];
+    {
+        id: 2,
+        title: 'Plant Pal',
+        description: `Plant diversity tracking app built with React.
+            Try out new foods and track your plant-based progress over time.`,
+        image: screenshotPlantPal,
+        liveUrl: 'https://plant-pal-phi.vercel.app/',
+        githubUrl: 'https://github.com/nadia-nh/plant-pal',
+        tags: ['React', 'Nextjs', 'Typescript', 'Health', 'Vibe-coded', 'Solo']
+    },
+]
 
 export const games_godot = [
     {
