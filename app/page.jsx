@@ -1,4 +1,5 @@
-import { Linkedin, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import Linkedin from 'lucide-react/dist/esm/icons/linkedin.js';
 
 export default function Page() {
     return (
@@ -10,7 +11,7 @@ export default function Page() {
                 <h1 className="mb-8 text-4xl font-bold">Nadia Heredia</h1>
 
                 <p className="page-description mt-4">
-                    Nadia Heredia (she / her) is a software engineer based in New York City.
+                    Nadia Heredia (she / her) is a software engineer based in New York city.
                     With a background in Android development and graphics, she designs and builds mobile applications, games, and generative art projects.
                 </p>
                 
