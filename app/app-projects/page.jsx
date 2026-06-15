@@ -28,6 +28,9 @@ export default function AppProjectsPage() {
 
             {/* Apps Grid */}
             <h2 className="mb-4">Android Apps</h2>
+             <p className="page-description mt-4">
+                    Modern Android applications built in Kotlin with Jetpack Compose
+            </p>
             <div className="project-grid">
                 {apps_android.map((app) => (
                     <ProjectCard key={app.id} project={app} />
@@ -35,6 +38,9 @@ export default function AppProjectsPage() {
             </div>
 
             <h2 className="mt-12 mb-4">Web Apps</h2>
+             <p className="page-description mt-4">
+                    Web applications built in Typescript with React and Next.js
+            </p>
             <div className="project-grid">
                 {apps_web.map((app) => (
                     <ProjectCard key={app.id} project={app} />

@@ -30,7 +30,7 @@ export const featured = [
         image: screenshotRcPomodoro,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
-        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Solo']
+        tags: ['Android', 'Jetpack-compose', 'Kotlin', 'Room', 'Productivity', 'Solo']
     },
     {
         id: 2,
@@ -40,7 +40,7 @@ export const featured = [
         image: screenshotRcTarot,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
-        tags: ['Android', 'Jetpack-compose', 'Room', 'Solo']
+        tags: ['Android', 'Jetpack-compose', 'Kotlin', 'Room', 'Solo']
     },
     {
         id: 3,
@@ -94,7 +94,7 @@ export const apps_android = [
         image: screenshotRcPomodoro,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
-        tags: ['Android', 'Jetpack-compose', 'Room', 'Productivity', 'Solo']
+        tags: ['Room', 'Productivity', 'Solo']
     },
     {
         id: 2,
@@ -103,8 +103,8 @@ export const apps_android = [
             Get tarot readings and explore the meanings of each card.`,
         image: screenshotRcTarot,
         liveUrl: null,
-        githubUrl: 'https://github.com/nadia-nh/rc-android-tarotp',
-        tags: ['Android', 'Jetpack-compose', 'Room', 'Solo']
+        githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
+        tags: ['Room', 'Solo']
     },
     
 ];
@@ -118,7 +118,7 @@ export const apps_web = [
         image: screenshotRcWaterTracking,
         liveUrl: 'https://rc-water-tracking-app.vercel.app/',
         githubUrl: 'https://github.com/nadia-nh/rc-water-tracking-app',
-        tags: ['React', 'Nextjs', 'Typescript', 'Productivity', 'Team']
+        tags: ['Typescript', 'Productivity', 'Team']
     },
     {
         id: 2,
@@ -128,7 +128,7 @@ export const apps_web = [
         image: screenshotPlantPal,
         liveUrl: 'https://plant-pal-phi.vercel.app/',
         githubUrl: 'https://github.com/nadia-nh/plant-pal',
-        tags: ['React', 'Nextjs', 'Typescript', 'Health', 'Vibe-coded', 'Solo']
+        tags: ['Typescript', 'Health', 'Vibe-coded', 'Solo']
     },
 ]
 
