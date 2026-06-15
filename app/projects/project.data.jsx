@@ -38,9 +38,9 @@ export const featured = [
         description: `Tarot reading app built with Android.
             Get tarot readings and explore the meanings of each card.`,
         image: screenshotRcTarot,
-        liveUrl: null,
+        liveUrl: 'https://arcana-flux.com/',
         githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
-        tags: ['Android', 'Jetpack-compose', 'Kotlin', 'Room', 'Solo']
+        tags: ['Android', 'Jetpack-compose', 'Kotlin', 'Room', 'Retrofit', 'Solo']
     },
     {
         id: 3,
@@ -102,9 +102,9 @@ export const apps_android = [
         description: `Tarot reading app built with Android.
             Get tarot readings and explore the meanings of each card.`,
         image: screenshotRcTarot,
-        liveUrl: null,
+        liveUrl: 'https://arcana-flux.com/',
         githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
-        tags: ['Room', 'Solo']
+        tags: ['Room', 'Retrofit', 'Solo']
     },
     
 ];
