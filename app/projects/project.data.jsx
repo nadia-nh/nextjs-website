@@ -2,6 +2,7 @@ import screenshotRcWaterTracking from '@images/screenshot-rc-water-tracking.png'
 import screenshotPlantPal from '@images/screenshot-plant-pal.png';
 import screenshotRcTarot from '@images/screenshot-rc-tarot.png';
 import screenshotRcPomodoro from '@images/screenshot-rc-pomodoro.png';
+import screenshotCryptoTracker from '@images/screenshot-crypto-tracker.png';
 
 import screenshotRcGodotFarmRpg from '@images/screenshot-rc-godot-farm-rpg.png';
 import screenshotRcSurvivors from '@images/screenshot-rc-survivors.png';
@@ -89,7 +90,7 @@ export const apps_android = [
     {
         id: 1,
         title: 'Quiet Garden',
-        description: `Pomodoro app built with Android.
+        description: `Pomodoro app built with Jetpack Composes.
             Set a customizable timer to focus and track you pomodoro sessions.`,
         image: screenshotRcPomodoro,
         liveUrl: null,
@@ -99,13 +100,23 @@ export const apps_android = [
     {
         id: 2,
         title: 'Arcana Flux',
-        description: `Tarot reading app built with Android.
+        description: `Tarot reading app built with Jetpack Compose.
             Get tarot readings and explore the meanings of each card.`,
         image: screenshotRcTarot,
         liveUrl: 'https://arcana-flux.com/',
         githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
         tags: ['Room', 'Retrofit', 'Solo']
     },
+    {
+        id: 3,
+        title: 'Crypto Tracker',
+        description: `Crypto price tracking app built with Jetpack Compose.
+            Monitor your crypto performance over time.`,
+        image: screenshotCryptoTracker,
+        liveUrl: null,
+        githubUrl: 'https://github.com/nadia-nh/android-crypto-tracker',
+        tags: ['Retrofit', 'Canvas drawing', 'Solo']
+    }
     
 ];
 
