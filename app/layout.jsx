@@ -7,15 +7,15 @@ export const metadata = {
     title: {
         template: 'Nadia Heredia - %s',
         default: 'Nadia Heredia - Software Engineer'
+    },
+    icons: {
+        icon: '/favicon.svg'
     }
 };
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <head>
-                <link rel="icon" href="null" sizes="any" />
-            </head>
             <body
                 className="antialiased transition-colors">
                 <ThemeToggle />
