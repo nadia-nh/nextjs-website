@@ -90,8 +90,8 @@ export const apps_android = [
     {
         id: 1,
         title: 'Quiet Garden',
-        description: `Pomodoro app built with Jetpack Composes.
-            Set a customizable timer to focus and track you pomodoro sessions.`,
+        description: `Pomodoro app built with Jetpack Compose.
+            Set a customizable timer to focus and track your pomodoro sessions.`,
         image: screenshotRcPomodoro,
         liveUrl: null,
         githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
