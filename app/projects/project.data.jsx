@@ -22,70 +22,6 @@ import screenshotRcRainbowSpiral from '@images/screenshot-rc-rainbow-spiral.png'
 import screenshotRcRingsPlanets from '@images/screenshot-rc-rings-planets.png';
 import screenshotRcShiftingSpheres from '@images/screenshot-rc-shifting-spheres.png';
 
-export const featured = [
-    {
-        id: 1,
-        title: 'App - Quiet Garden',
-        description: `Pomodoro app built with Android.
-            Set a customizable timer to focus and track you pomodoro sessions.`,
-        image: screenshotRcPomodoro,
-        liveUrl: null,
-        githubUrl: 'https://github.com/nadia-nh/rc-android-pomodoro',
-        tags: ['Android', 'Jetpack-compose', 'Kotlin', 'Room', 'Productivity', 'Solo']
-    },
-    {
-        id: 2,
-        title: 'App - Arcana Flux',
-        description: `Tarot reading app built with Android.
-            Get tarot readings and explore the meanings of each card.`,
-        image: screenshotRcTarot,
-        liveUrl: 'https://arcana-flux.com/',
-        githubUrl: 'https://github.com/nadia-nh/rc-android-tarot',
-        tags: ['Android', 'Jetpack-compose', 'Kotlin', 'Room', 'Retrofit', 'Solo']
-    },
-    {
-        id: 3,
-        title: 'Game - Plant And Prosper',
-        description: `Cozy farming game built with Godot.
-            Prepare the soil, plant seeds, water crops, and sell them once they are fully grown.`,
-        image: screenshotRcGodotFarmRpg,
-        liveUrl: 'https://forgepixel.itch.io/plant-and-prosper',
-        githubUrl: 'https://github.com/nadia-nh/rc-godot-farm-rpg',
-        tags: ['Godot', 'GDScript', 'Cozy', 'Solo']
-    },
-    {
-        id: 4,
-        title: 'Game - Space Laser',
-        description: `Shoot-em-up game in space built with Pico-8.
-            Steer a ship and shoot lasers at falling enemies.`,
-        image: screenshotRcShooter,
-        liveUrl: 'https://www.lexaloffle.com/bbs/cart_info.php?cid=rasifebuhi-8',
-        githubUrl: 'https://github.com/nadia-nh/rc-pico8-shoot-em-up',
-        tags: ['Pico-8', 'Lua', 'SHMUP', 'Solo']
-    },
-    {
-        id: 5,
-        title: 'Generative Art - Flower Garden',
-        description: `Cozy garden.
-            Left-click to plant flowers and watch them sway in the breeze.
-            Right-click to remove them.`,
-        image: screenshotRcFlowerGarden,
-        liveUrl: 'https://editor.p5js.org/nadia-nh/full/H0Lgt_z6k',
-        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/flower-garden',
-        tags: ['p5.js', 'Javascript', 'Cozy', 'Solo']
-    },
-    {
-        id: 6,
-        title: 'Generative Art - Rings And Planets',
-        description: `Constellation scene.
-            Rings and orbiting planets move dynamically, with colors shifting over time.`,
-        image: screenshotRcRingsPlanets,
-        liveUrl: 'https://www.shadertoy.com/view/W3jBWW',
-        githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/rings-and-planets',
-        tags: ['Shader','GLSL', 'Geometric', 'Solo']
-    },
-];
-
 export const apps_android = [
     {
         id: 1,
@@ -300,4 +236,24 @@ export const shaders = [
         githubUrl: 'https://github.com/nadia-nh/rc-creative-coding/tree/main/shifting-spheres',
         tags: ['GLSL', 'Abstract','Solo']
     },
+];
+
+// A featured project reuses its category entry, with a title prefix and the
+// platform tags that the category page implies but the mixed grid doesn't.
+function feature(id, project, prefix, extraTags = []) {
+    return {
+        ...project,
+        id,
+        title: `${prefix} - ${project.title}`,
+        tags: [...extraTags, ...project.tags]
+    };
+}
+
+export const featured = [
+    feature(1, apps_android[0], 'App', ['Android', 'Jetpack-compose', 'Kotlin']),
+    feature(2, apps_android[1], 'App', ['Android', 'Jetpack-compose', 'Kotlin']),
+    feature(3, games_godot[0], 'Game', ['Godot']),
+    feature(4, games_other[0], 'Game'),
+    feature(5, sketches[0], 'Generative Art', ['p5.js']),
+    feature(6, shaders[1], 'Generative Art', ['Shader']),
 ];
